@@ -1,4 +1,5 @@
 import Layout from '../components/layout'
+import ListadoGuitarras from '../components/ListadoGuitarras'
 
 export default function Tienda() {
     return (
@@ -7,7 +8,12 @@ export default function Tienda() {
                 title={"Tienda virtual"}
                 description={"Guitar App - Nuestra tienda"}
             >
-                <div>Desde tienda</div>
+                <main className='contenedor'>
+                    <h1 className='heading'>Nuestra coleccion</h1>
+                    <ListadoGuitarras
+                        
+                    />
+                </main>
             </Layout>
         </>
     )
